@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - User List</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            max-width: 80%;
+            margin: 20px auto;
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Title */
+        .title {
+            font-size: 2rem;
+            color: #4a4e69;
+            margin-bottom: 20px;
+        }
+
+        /* Table styling */
+        .user-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .user-table thead tr {
+            background-color: #c2c3e0; /* Light purple */
+            color: #fff;
+            text-align: left;
+        }
+
+        .user-table th,
+        .user-table td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            font-size: 0.9rem;
+        }
+
+        .user-table tbody tr:nth-child(even) {
+            background-color: #e8f0fe; /* Light blue */
+        }
+
+        .user-table tbody tr:nth-child(odd) {
+            background-color: #f3e9fe; /* Light lavender */
+        }
+
+        .user-table tbody tr:hover {
+            background-color: #d4dafe; /* Hover effect */
+        }
+
+        .user-table th {
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .user-table td {
+            text-align: center;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 10px;
+            }
+
+            .user-table th,
+            .user-table td {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">User Rental Details</h1>
+        <table class="user-table">
+            <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>User Name</th>
+                    <th>Car Name</th>
+                    <th>Mode</th>
+                    <th>Rent Date</th>
+                    <th>Location</th>
+                    <th>Duration (Days)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Arshiya Pathan</td>
+                    <td>BMW 5 Series</td>
+                    <td>Online</td>
+                    <td>2024-12-01</td>
+                    <td>Mumbai</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Asif Khan</td>
+                    <td>BMW X5</td>
+                    <td>Offline</td>
+                    <td>2024-11-28</td>
+                    <td>Pune</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sara Ali</td>
+                    <td>BMW 7 Series</td>
+                    <td>Online</td>
+                    <td>2024-11-30</td>
+                    <td>Delhi</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rohan Mehta</td>
+                    <td>BMW 3 Series</td>
+                    <td>Online</td>
+                    <td>2024-11-25</td>
+                    <td>Bangalore</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Priya Sharma</td>
+                    <td>BMW X3</td>
+                    <td>Offline</td>
+                    <td>2024-11-20</td>
+                    <td>Hyderabad</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Ali Sheikh</td>
+                    <td>BMW 4 Series</td>
+                    <td>Online</td>
+                    <td>2024-11-22</td>
+                    <td>Lucknow</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Ananya Bose</td>
+                    <td>BMW X6</td>
+                    <td>Online</td>
+                    <td>2024-11-19</td>
+                    <td>Chennai</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Vikram Singh</td>
+                    <td>BMW i8</td>
+                    <td>Offline</td>
+                    <td>2024-11-18</td>
+                    <td>Ahmedabad</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Fatima Khan</td>
+                    <td>BMW X7</td>
+                    <td>Online</td>
+                    <td>2024-11-15</td>
+                    <td>Kolkata</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Karan Kapoor</td>
+                    <td>BMW M5</td>
+                    <td>Offline</td>
+                    <td>2024-11-10</td>
+                    <td>Jaipur</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

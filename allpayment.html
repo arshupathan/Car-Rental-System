@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Payment List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 80%;
+            margin: 20px auto;
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .title {
+            font-size: 2rem;
+            color: #4a4e69;
+            margin-bottom: 20px;
+        }
+
+        .payment-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .payment-table thead tr {
+            background-color: #c2c3e0;
+            color: #fff;
+            text-align: left;
+        }
+
+        .payment-table th,
+        .payment-table td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            font-size: 0.9rem;
+        }
+
+        .payment-table tbody tr:nth-child(even) {
+            background-color: #e8f0fe;
+        }
+
+        .payment-table tbody tr:nth-child(odd) {
+            background-color: #f3e9fe;
+        }
+
+        .payment-table tbody tr:hover {
+            background-color: #d4dafe;
+        }
+
+        .payment-table th {
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .payment-table td {
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 10px;
+            }
+
+            .payment-table th,
+            .payment-table td {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Payment Details</h1>
+        <table class="payment-table">
+            <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>User Name</th>
+                    <th>Duration (Days)</th>
+                    <th>Amount (₹)</th>
+                    <th>Payment Method</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Arshiya Pathan</td>
+                    <td>5</td>
+                    <td>₹50,000</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Asif Khan</td>
+                    <td>3</td>
+                    <td>₹30,000</td>
+                    <td>Cash</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sara Ali</td>
+                    <td>7</td>
+                    <td>₹70,000</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rohan Mehta</td>
+                    <td>4</td>
+                    <td>₹40,000</td>
+                    <td>Cash</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Priya Sharma</td>
+                    <td>6</td>
+                    <td>₹60,000</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Ali Sheikh</td>
+                    <td>8</td>
+                    <td>₹80,000</td>
+                    <td>Cash</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Ananya Bose</td>
+                    <td>2</td>
+                    <td>₹20,000</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Vikram Singh</td>
+                    <td>10</td>
+                    <td>₹1,00,000</td>
+                    <td>Cash</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Fatima Khan</td>
+                    <td>3</td>
+                    <td>₹30,000</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Karan Kapoor</td>
+                    <td>9</td>
+                    <td>₹90,000</td>
+                    <td>Cash</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
